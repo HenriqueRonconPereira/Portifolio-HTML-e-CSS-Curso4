@@ -26,7 +26,7 @@ body{
     display: flex;
     gap: 80px;
 }
-.cabecalho__menu__link{
+.cabecalho_menu_link{
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 600;
@@ -38,23 +38,22 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 82px;
 }
 .apresentacao__conteudo{
-    width: 50%;
+    width: 615px;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
-.apresentacao__conteudo__titulo{
+.apresentacao_conteudo_titulo{
     font-size: 2.25rem;
     font-family: var(--fonte-primaria);
 }
 .titulo-destaque{
     color: var(--cor-terciaria);
 }
-.apresentacao__conteudo__texto{
+.apresentacao_conteudo_texto{
     font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
 }
@@ -66,17 +65,17 @@ body{
     align-items: center;
     gap: 32px;
 }
-.apresentacao__links__subtitulo{
+.apresentacao_links_subtitulo{
     font-family: var(--fonte-primaria);
     font-weight: 400;
     font-size: 1.5rem;
 }
-.apresentacao__links__navegacao{
+.apresentacao_links_link{
     display: flex;
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-terciaria);
-    width: 50%;
+    width: 378px;
     text-align: center;
     border-radius: 8px;
     font-size: 1.5rem;
@@ -86,11 +85,13 @@ body{
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
 }
-.apresentacao__links__link:hover{
+.apresentacao_links_link:hover{
     background-color: var(--cor-hover);
 }
-.apresentacao__imagem{
-    width: 50%;
+
+.img_henrique{
+    width: 700px;
+    margin-left: 100px;
 }
 .rodape{
     color: var(--cor-primaria);
@@ -100,20 +101,4 @@ body{
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 400;
-}
-
-@media (max-width: 1200px) {
-    .cabecalho{
-         padding: 10%;  
-    }
-    .cabecalho__menu{
-        justify-content: center;
-    }
-    .apresentacao{
-        flex-direction: column-reverse;
-        padding: 5%;
-    }
-    .apresentacao__conteudo{
-        width: auto;
-    }
 }
